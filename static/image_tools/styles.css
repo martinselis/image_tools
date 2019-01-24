@@ -1,0 +1,69 @@
+input[name=urlname] {
+    width: 400px;
+    height: 50px;
+}
+
+input[name=width], input[name=height] {
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+input {
+    background-color: #FEFFBE;
+    border-radius: 4px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+
+}
+
+body {
+    background-color: #D7EBBA;
+}
+
+#wrapper {
+    padding: 0px 5px 0px 5px;
+    height: 280px;
+    width: 550px;
+    border-radius: 15px;
+    background-color: #9AD2CB;
+    margin: 50px auto;
+}
+
+#wrapper h3 {
+    padding-top: 15px;
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+#url {
+    width: 470px;
+    margin: 0 auto;
+
+}
+
+span {
+    font-family: 'Concert One', cursive;
+    padding-right: 20px;
+}
+
+#measurements {
+    width: 450px;
+    margin: 10px auto;
+}
+
+#resizeButton {
+    width: 200px;
+    margin: 30px auto;
+}
+
+#resizeButton input {
+    width: 200px;
+    height: 40px;
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #EBD494;
+}

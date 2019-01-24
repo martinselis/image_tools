@@ -1,0 +1,31 @@
+{% load static %}
+
+<!doctype html>
+<html>
+    <head>
+        <title>Image Tool</title>
+        <script>let url_info = {{url_info|safe}}</script>
+        <link rel="stylesheet" type="text/css" href="{% static 'image_tools/styles.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Concert+One|Roboto+Slab" rel="stylesheet">
+
+    </head>
+    <body>
+<div id="wrapper">
+    <h3>reSIZE it!</h3>
+    <form action="submit" method="post">{% csrf_token %}
+        <div id="url">
+            <span>URL:</span><input type="text" name="urlname" placeholder="Enter URL"><br>
+        </div>
+        <div id="measurements">
+          <span>Width(px):</span><input type="text" name="width" placeholder="E.g. 300">
+          <span>Height(px):</span><input type="text" name="height" placeholder="E.g. 450">
+        </div>
+        <div id="resizeButton">
+            <input type="submit" value="reSIZE-it!">
+        </div>
+    </form>
+</div>
+<script src="{% static 'image_tools/script.js' %}"></script>
+
+    </body>
+</html>
