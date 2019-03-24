@@ -2,7 +2,7 @@
 
 **Overview:**
 
-I required some images to be resized but I can't get used to the photo tools Mac provides. Decided to create a script that resizes images. You provide the url, it resizes it to your specifications and returns it from memory. Simple and gets the job done. Resizes png and jpg/jpeg.
+I required some images to be resized but I can't get used to the photo tools Mac provides. Decided to create a script that resizes images. You provide the url, it resizes it to your specifications (width and height px) and returns it from memory. Simple and gets the job done. Resizes png and jpg/jpeg.
 
 Uses Django for backend. Images are not saved to database. They are resized in memory and pushed to user for download from there, hence not very scalable.
 
